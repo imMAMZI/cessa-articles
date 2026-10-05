@@ -1,0 +1,16 @@
+# نیازمندی‌های اجرای کدهای RAG
+# برای نصب در محیط مجازی (venv):
+#   python3 -m venv venv
+#   source venv/bin/activate
+#   pip install -r requirements.txt
+
+scikit-learn>=1.3.0
+numpy>=1.24.0
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+openai>=1.30.0
+
+# اختیاری: برای استفاده از مدل‌های امبدینگ محلی و پایگاه داده کروما
+# chromadb>=0.4.0
+# sentence-transformers>=2.2.0
